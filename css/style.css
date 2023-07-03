@@ -22,7 +22,7 @@ body {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
-    background-color: aqua;
+    background-color: rgba(64, 250, 219, 0.568);
     border-radius: 9px;
 }
 .carousel-caption h5 {
@@ -217,7 +217,7 @@ body {
 	/* When the animation is finished, start again */
 	/*animation-iteration-count: infinite;*/
 
-	transform: scale(4.5);
+	transform: scale(2.0);
 	transition-duration: 1s;
 
   }
