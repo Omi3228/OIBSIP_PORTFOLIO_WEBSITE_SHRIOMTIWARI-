@@ -325,7 +325,7 @@ body::after{
 }
 .popup-content {
     width: clamp(300px, 90vw, 500px);
-    background-color: rgba(241, 178, 241, 0.945);
+    background-color: rgba(235, 211, 211, 0.945);
     padding: clamp(1.5rem, 100vw, 3rem);
     box-shadow: 0 0 .5em rgb(250, 21, 21);
     border-radius: .5em;
