@@ -22,7 +22,7 @@ body {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
-    background-color: rgba(64, 250, 219, 0.568);
+    background-color: rgba(66, 245, 215, 0.788);
     border-radius: 9px;
 }
 .carousel-caption h5 {
@@ -172,7 +172,7 @@ body {
 	}
 	#clients img{
 		 height: 50px;
-		 margin-bottom: 25px;
+		 
 		 
 	}
 	#clients img:hover{
