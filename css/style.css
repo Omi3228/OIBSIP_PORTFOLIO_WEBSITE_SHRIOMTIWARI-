@@ -435,3 +435,10 @@ font-size: 1.5rem;
 	width: auto;
     
  }
+ #clients .client-item img:hover{
+    /* transform: scale(2); */
+    /* transform: rotate(360deg); */
+    transform: scaleX(-1);
+    cursor: pointer;
+    
+}
