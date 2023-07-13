@@ -396,8 +396,9 @@ body::after{
 
   #inttro video{
 
-	width: 300px;
+	width: 200px;
 	height: 200px;
+	 
 	 
   }
   
@@ -418,10 +419,12 @@ font-size: 1.5rem;
 
 	 
 	display: flex;
-	margin: auto;
+	/* margin: auto; */
 	justify-content: center;
- 
-
+	margin-left: auto;
+    margin-right: auto;
+    width: auto; 
+overflow: hidden;
  }
  #clients .client-item{
 	
@@ -448,5 +451,11 @@ font-size: 1.5rem;
 	-webkit-filter: grayscale(0);
 	-webkit-transform: scale(1.01);
     
+}
+@media (max-width:428px){
+    #client{
+        padding:3px;
+		margin: auto;
+    }
 }
 
