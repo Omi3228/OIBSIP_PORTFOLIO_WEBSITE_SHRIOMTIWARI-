@@ -145,12 +145,10 @@ body {
 	.about-text {
 		padding-top: 50px;
 	  	 
-		text-align: justify;
+		 
 	}
-	.about-text p {
-		text-align: justify;
-	
-	}
+	 
+	 
 	.card {
 		margin-bottom: 30px;
 	}
@@ -417,6 +415,7 @@ body::after{
  .about-text p{
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 1.5rem;
+text-align: justify;
  
  }
  
