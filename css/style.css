@@ -420,7 +420,7 @@ font-size: 1.5rem;
 	display: flex;
 	margin: auto;
 	justify-content: center;
-
+ 
 
  }
  #clients .client-item{
@@ -433,6 +433,10 @@ font-size: 1.5rem;
 
 	height: 45px;
 	width: auto;
+	  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .2s ease-in-out;  
     
  }
  #clients .client-item img:hover{
@@ -440,5 +444,9 @@ font-size: 1.5rem;
     /* transform: rotate(360deg); */
     transform: scaleX(-1);
     cursor: pointer;
+	filter: none;
+	-webkit-filter: grayscale(0);
+	-webkit-transform: scale(1.01);
     
 }
+
