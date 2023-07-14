@@ -449,12 +449,12 @@ overflow: hidden;
  }
  #clients .client-item img:hover{
     /* transform: scale(2); */
-    /* transform: rotate(360deg); */
-    transform: scaleX(-1);
+    transform: rotate(360deg);
+    /* transform: scaleX(-1); */
     cursor: pointer;
 	filter: none;
 	-webkit-filter: grayscale(0);
-	-webkit-transform: scale(1.01);
+	/* -webkit-transform: scale(1.01); */
     
 }
 @media (max-width:428px){
@@ -463,4 +463,17 @@ overflow: hidden;
 		margin: auto;
     }
 }
+ 
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 60%;
+}
+
+
+.deco{
+text-decoration: underline overline black;
+
+}
+ 
